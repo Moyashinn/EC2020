@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('top');
 });
+
+/*
+Route::get('/', 'index@index');
+Route::get('/register', 'auth@register');
+Route::get('/login', 'auth@login');
+Route::post('/cart, 'main@basket');
+Route::post('/history', main@store);
+*/
